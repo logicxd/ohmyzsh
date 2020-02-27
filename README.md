@@ -1,3 +1,9 @@
+## Changes from the Original 
+Main reference used: https://towardsdatascience.com/trick-out-your-terminal-in-10-minutes-or-less-ba1e0177b7df 
+Plugins: zsh-syntax-highlighting, git, z
+
+## Original Content Below
+
 <p align="center">
   <img src="https://s3.amazonaws.com/ohmyzsh/oh-my-zsh-logo.png" alt="Oh My Zsh">
 </p>

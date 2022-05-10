@@ -3,10 +3,12 @@
 2. Open `~/.zshrc` and point it to this repo via `export ZSH="/Users/davidmoe/Documents/ohmyzsh"`
 
 # Adding plugins
-TODO?
+Clone the repo into `/custom/plugins` folder. These are ignored in git.
+
+Ex: `git clone https://github.com/zsh-users/zsh-autosuggestions ~/Documents/ohmyzsh/custom/plugins/zsh-autosuggestions`
 
 # Plugins
-git, z
+git, z, npm, zsh-autosuggestions
 
 # Getting latest changes from main repo
 1. `git checkout master`

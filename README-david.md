@@ -1,6 +1,7 @@
 # Installing ohmyzsh
 1. Clone this repo
 2. Open `~/.zshrc` and point it to this repo via `export ZSH="/Users/davidmoe/Documents/ohmyzsh"`
+  1. If you don't see `~/.zshrc`, you can create one.
 
 # Adding plugins
 Clone the repo into `/custom/plugins` folder. These are ignored in git.

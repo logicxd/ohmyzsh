@@ -11,6 +11,21 @@ Ex: `git clone https://github.com/zsh-users/zsh-autosuggestions ~/Documents/ohmy
 # Plugins
 git, z, npm, zsh-autosuggestions
 
+# Powerlevel10k
+Some theme customization is done inside of `~/.p10k.zsh`
+```
+    if [[ -n $VCS_STATUS_LOCAL_BRANCH ]]; then
+      local branch=${(V)VCS_STATUS_LOCAL_BRANCH}
+      # If local branch name is at most 32 characters long, show it in full.
+      # Otherwise show the first 12 … the last 12.
+      # Tip: To always show local branch name in full without truncation, delete the next line.
+
+      # DM: commented out below
+      # (( $#branch > 32 )) && branch[13,-13]="…"  # <-- this line
+      # res+="${clean}${(g::)POWERLEVEL9K_VCS_BRANCH_ICON}${branch//\%/%%}"
+    fi
+```
+
 # Getting latest changes from main repo
 1. `git checkout master`
 2. `git pull https://github.com/ohmyzsh/ohmyzsh.git master`
